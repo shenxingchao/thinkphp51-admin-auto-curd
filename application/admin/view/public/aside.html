@@ -1,0 +1,22 @@
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="{if $Think.Session.admin.head_image neq ''}{$Think.Session.admin.head_image}{else/}__STATIC__/images/user2-160x160.jpg{/if}" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>
+                    {if $Think.Session.admin.nickname neq ''}
+                        {$Think.Session.admin.nickname}
+                    {else/}
+                        {$Think.Session.admin.username}
+                    {/if}
+                </p>
+                <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
+            </div>
+        </div>
+        <ul class="sidebar-menu" data-widget="tree" data-animation-speed="200">
+        </ul>
+    </section>
+</aside>

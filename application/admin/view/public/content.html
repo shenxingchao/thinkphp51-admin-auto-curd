@@ -1,0 +1,28 @@
+<div class="content-wrapper">
+    <div class="content-iframe " style="background-color: #ffffff; ">
+        <div class="content-tabs">
+            <button class="roll-nav roll-left tabLeft" onclick="scrollTabLeft()">
+                <i class="fa fa-backward"></i>
+            </button>
+            <nav class="tab-menu" id="tab-menu">
+            </nav>
+            <button class="roll-nav roll-right tabRight" onclick="scrollTabRight()">
+                <i class="fa fa-forward" style="margin-left: 3px;"></i>
+            </button>
+            <div class="roll-nav roll-right tabMenu">
+                <button class="dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="fa fa-list"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu">
+                    <li onclick="closeAllTab()"><a href="#">关闭全部</a></li>
+                    <li onclick="closeOtherTab()"><a href="#">除此之外全部关闭</a></li>
+                </ul>
+            </div>
+            <button class="roll-nav roll-right tabFresh" onclick="refreshTab()">
+                <i class="fa fa-refresh" style="margin-left: 3px;"></i>
+            </button>
+        </div>
+        <div class="tab-content " id="tab-content">
+        </div>
+    </div>
+</div>

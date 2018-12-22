@@ -1,0 +1,54 @@
+<header class="main-header">
+    <!-- Logo -->
+    <a href="{:url('index/index')}" class="logo">
+        <span class="logo-mini">Spl</span>
+        <span class="logo-lg"><b>Spl</b>Admin</span>
+    </a>
+    <nav class="navbar navbar-static-top">
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                <li class="dropdown user user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="{if $Think.Session.admin.head_image neq ''}{$Think.Session.admin.head_image}{else/}__STATIC__/images/user2-160x160.jpg{/if}"
+                             class="user-image" alt="User Image">
+                        <span class="hidden-xs">
+                            {if $Think.Session.admin.nickname neq ''}
+                                {$Think.Session.admin.nickname}
+                            {else/}
+                                {$Think.Session.admin.username}
+                            {/if}
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="user-header">
+                            <img src="{if $Think.Session.admin.head_image neq ''}{$Think.Session.admin.head_image}{else/}__STATIC__/images/user2-160x160.jpg{/if}" class="img-circle" alt="User Image">
+                            <p>
+                                {if $Think.Session.admin.nickname neq ''}
+                                    {$Think.Session.admin.nickname}
+                                {else/}
+                                    {$Think.Session.admin.username}
+                                {/if}
+                            </p>
+                            <p><small>上次登录时间：{$Think.Session.admin.login_time|date='Y-m-d H:i:s'}</small></p>
+                        </li>
+                        <li class="user-footer">
+                            <div class="pull-left">
+                                <a href="#" class="btn btn-default btn-flat">设置</a>
+                            </div>
+                            <div class="pull-right">
+                                <a href="{:url('User/logout')}" class="btn btn-default btn-flat">退出</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Control Sidebar Toggle Button -->
+                <li>
+                    <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

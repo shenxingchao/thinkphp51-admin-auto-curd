@@ -1,0 +1,80 @@
+.layui-layer-btn{
+    background: #F8F8F8;
+}
+.layui-layer-title{
+    background: #3b8dbc !important;
+    color: #ffffff !important;
+}
+.layui-layer-iframe{
+    overflow-y: hidden !important;
+}
+.layui-layer-btn0{
+    background: #3b8dbc !important;
+    border-color: #3b8dbc !important;
+}
+.layui-layer-setwin .layui-layer-min cite{
+    background: #ffffff!important;
+}
+.layui-layer-setwin:hover .layui-layer-min cite:hover{
+    background: #ffffff!important;
+}
+input.error { border: 1px solid red; }
+label.error {
+    font-weight: normal;
+    color: red;
+}
+.form-control{
+    border-radius: 0;
+    width: 100% !important;
+}
+.spl_callback{
+    margin-top: 10px;
+}
+.spl_callback img{
+    width: auto;
+    max-width: 100%;
+    display: block;
+    height: 100px !important;
+    cursor: pointer;
+}
+.spl-delete-file{
+    margin-top: 6px;
+}
+.spl_textarea{
+    resize: none;
+}
+.table-bordered{
+    border: 1px solid #e1e1e1;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td{
+    border:1px solid #e1e1e1;
+}
+.table>thead>tr>th{
+    text-align: center;
+}
+.table-noborder > thead > tr > th,
+.table-noborder > tbody > tr > th,
+.table-noborder > tfoot > tr > th,
+.table-noborder > thead > tr > td,
+.table-noborder > tbody > tr > td,
+.table-noborder > tfoot > tr > td{
+    border:none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.fixed-table-container{
+    border: none;
+}
+.bootstrap-switch{
+    border: 1px solid #ececec;
+    border-radius: 0;
+}
+.bootstrap-switch .bootstrap-switch-handle-on,.bootstrap-switch .bootstrap-switch-handle-off{
+    border-radius: 0;
+}

@@ -1,0 +1,22 @@
+{extend name="main" /}
+{block name="script"}
+<script type="text/javascript">
+    $(function () {
+        //ajax获取菜单配置
+        $.ajax({ //获取菜单
+            url:'{:url("Index/ajaxMenu")}',
+            type:'post',
+            dataType:'json',
+            data:{},
+            success:function (response) {
+                if(response.code === 0){
+                    $('.sidebar-menu').addMenus(response.data);
+                    $('.sidebar-menu a[target="iframe-1"]')[0].click();//默认显示的tab
+                }else{
+                    toastr.error(response.msg);
+                }
+            }
+        });
+    });
+</script>
+{/block}

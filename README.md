@@ -1,7 +1,7 @@
 # spladmin基于thinkphp5.1+adminLTE框架开发 
 # 一键生成CURD 集成 权限管理 菜单管理 全局设置
 ## DEMO
-[在线演示](http://spladmin.o8o8o8.com)<br><br>
+[在线演示](http://spladmin.o8o8o8.com/admin)<br><br>
 测试账号 <br>
 test 111111<br>
 ## 教程

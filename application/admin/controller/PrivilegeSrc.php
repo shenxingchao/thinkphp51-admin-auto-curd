@@ -300,7 +300,7 @@ class PrivilegeSrc extends Base{
             if ($value['parent_id'] == $parent_id) {
                 $value[$name] = str_repeat('—— ',$level * 1) . $value[$name];
                 $tree[] = $value;
-                unset($data['key']);
+                unset($data[$key]);
                 $this->getTree($data, $name, $value['id'], $level + 1);
             }
         }

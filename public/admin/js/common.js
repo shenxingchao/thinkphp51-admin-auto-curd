@@ -47,6 +47,16 @@
         $(this).find('.tab-item-close').hide();
     });
 
+    //2019/10/10 修复左侧菜单收拢状态高亮问题
+    $('.sidebar-toggle').on('click',function () {
+        if(!$('body').hasClass('sidebar-collapse')){
+            //展开状态，点击后收拢未激活的菜单，
+            if(!$('.menu-open').hasClass('active')){
+                $('.menu-open').removeClass('menu-open');
+            }
+        }
+    });
+
     $.fn.extend({
         "addMenus": function (menu) {
             menu = typeof (menu)!=='undefined'?menu:[];
@@ -87,6 +97,11 @@
                 $('.sidebar-menu a').bind('click',function () {
                     if(typeof($(this).attr("target"))==="undefined"){
                         //当前点击无target属性
+                        if($('body').hasClass('sidebar-collapse')){
+                            //2019/10/10 修复左侧菜单收拢状态高亮问题 判断是否收拢状态，收拢状态点击一级菜单不做处理
+                            return false;
+                        }
+
                     }else{
                         //隐藏激活的iframe
                         $('.active-iframe').removeClass('active-iframe');

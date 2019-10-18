@@ -50,8 +50,9 @@
     //2019/10/10 修复左侧菜单收拢状态高亮问题
     $('.sidebar-toggle').on('click',function () {
         if(!$('body').hasClass('sidebar-collapse')){
-            //展开状态，点击后收拢未激活的菜单，
+            //展开状态，点击后收拢未激活的菜单，让他收拢
             if(!$('.menu-open').hasClass('active')){
+                $('.menu-open .treeview-menu').css('display','none');
                 $('.menu-open').removeClass('menu-open');
             }
         }
@@ -107,7 +108,16 @@
                         $('.active-iframe').removeClass('active-iframe');
                         //激活当前菜单
                         $('.sidebar-menu li').removeClass('active');
+                        if($('body').hasClass('sidebar-collapse')){ //2019/10/10 修复左侧菜单收拢状态高亮问题 判断是否收拢状态，收拢状态点击一级菜单不做处理
+                            $('.menu-open .treeview-menu').css('display','none');
+                            $('.sidebar-menu li').removeClass('menu-open');
+                        }
                         $(this).parent('li').addClass('active');
+                        if($('body').hasClass('sidebar-collapse')){ //2019/10/10 修复左侧菜单收拢状态高亮问题 判断是否收拢状态，收拢状态点击一级菜单不做处理
+                            $(this).parents('.treeview').addClass('menu-open');
+                            $(this).parents('.treeview-menu').css('display','block');
+                        }
+
                         if($(this).parents('.treeview').length>0){
                             $(this).parents('.treeview').addClass('active');
                         }

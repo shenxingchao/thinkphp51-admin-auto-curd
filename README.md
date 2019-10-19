@@ -6,9 +6,8 @@
 账号test 密码111111<br><br>
 (演示账号只有查看的权限哦) 
 
-## 教程
-[演示视频](http://spladmin.o8o8o8.com/demo.html)
-### 觉得对你有帮助的赞助我 
-开发不容易买顿饭吃<br>
+## 演示视频
+[点我观看神奇视频](http://spladmin.o8o8o8.com/demo.html)
 
-![图片](https://github.com/shenxingchao/spladmin/blob/master/alipay.jpg?v=1)
+## 教程
+等我空了写教程给你们

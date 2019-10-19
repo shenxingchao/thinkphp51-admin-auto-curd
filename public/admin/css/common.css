@@ -64,11 +64,9 @@ html{
     margin: auto;
 }
 .content-tabs .tabMenu button{
-    background: #327ab7;
     color: #ffffff;
 }
 .content-tabs .tabMenu button:hover{
-    background: #3a8fd7;
 }
 .content-tabs .tabFresh{
     position: absolute;
@@ -109,7 +107,6 @@ html{
 }
 .tab-menu .tab-item-btn:hover{
     cursor: pointer;
-    background: #327ab7;
     color: #ffffff;
 }
 .tab-menu .tab-item-btn .tab-item-close{
@@ -121,6 +118,42 @@ html{
     display: none;
 }
 .tab-menu .active_tab{
-    background: #327ab7;
     color: #ffffff;
 }
+
+
+.skin-blue .tab-menu .tab-item-btn:hover,.skin-blue .tab-menu .active_tab,.skin-blue .content-tabs .tabMenu button{background: #3883af;}
+.skin-blue .content-tabs .tabMenu button:hover{background: #4aa2ec;}
+
+.skin-black .tab-menu .tab-item-btn:hover,.skin-black .tab-menu .active_tab,.skin-black .content-tabs .tabMenu button{background: #000000;}
+.skin-black .content-tabs .tabMenu button:hover{background: #333333;}
+
+.skin-red .tab-menu .tab-item-btn:hover,.skin-red .tab-menu .active_tab,.skin-red .content-tabs .tabMenu button{background: #cd4635;}
+.skin-red .content-tabs .tabMenu button:hover{background: #f4533f;}
+
+.skin-yellow .tab-menu .tab-item-btn:hover,.skin-yellow .tab-menu .active_tab,.skin-yellow .content-tabs .tabMenu button{background: #e69411;}
+.skin-yellow .content-tabs .tabMenu button:hover{background: #f3c51c;}
+
+.skin-purple .tab-menu .tab-item-btn:hover,.skin-purple .tab-menu .active_tab,.skin-purple .content-tabs .tabMenu button{background: #545193;}
+.skin-purple .content-tabs .tabMenu button:hover{background: #7974d3;}
+
+.skin-green .tab-menu .tab-item-btn:hover,.skin-green .tab-menu .active_tab,.skin-green .content-tabs .tabMenu button{background: #00914e;}
+.skin-green .content-tabs .tabMenu button:hover{background: #00d372;}
+
+.skin-blue-light .tab-menu .tab-item-btn:hover,.skin-blue-light .tab-menu .active_tab,.skin-blue-light .content-tabs .tabMenu button{background: #3883af;}
+.skin-blue-light .content-tabs .tabMenu button:hover{background: #4aa2ec;}
+
+.skin-black-light .tab-menu .tab-item-btn:hover,.skin-black-light .tab-menu .active_tab,.skin-black-light .content-tabs .tabMenu button{background: #000000;}
+.skin-black-light .content-tabs .tabMenu button:hover{background: #333333;}
+
+.skin-red-light .tab-menu .tab-item-btn:hover,.skin-red-light .tab-menu .active_tab,.skin-red-light .content-tabs .tabMenu button{background: #cd4635;}
+.skin-red-light .content-tabs .tabMenu button:hover{background: #f4533f;}
+
+.skin-yellow-light .tab-menu .tab-item-btn:hover,.skin-yellow-light .tab-menu .active_tab,.skin-yellow-light .content-tabs .tabMenu button{background: #e69411;}
+.skin-yellow-light .content-tabs .tabMenu button:hover{background: #f3c51c;}
+
+.skin-purple-light .tab-menu .tab-item-btn:hover,.skin-purple-light .tab-menu .active_tab,.skin-purple-light .content-tabs .tabMenu button{background: #545193;}
+.skin-purple-light .content-tabs .tabMenu button:hover{background: #7974d3;}
+
+.skin-green-light .tab-menu .tab-item-btn:hover,.skin-green-light .tab-menu .active_tab,.skin-green-light .content-tabs .tabMenu button{background: #00914e;}
+.skin-green-light .content-tabs .tabMenu button:hover{background: #00d372;}

@@ -2,8 +2,7 @@
     background: #F8F8F8;
 }
 .layui-layer-title{
-    background: #3b8dbc !important;
-    color: #ffffff !important;
+
 }
 .layui-layer-iframe{
     overflow-y: hidden !important;
@@ -13,10 +12,8 @@
     border-color: #3b8dbc !important;
 }
 .layui-layer-setwin .layui-layer-min cite{
-    background: #ffffff!important;
 }
 .layui-layer-setwin:hover .layui-layer-min cite:hover{
-    background: #ffffff!important;
 }
 input.error { border: 1px solid red; }
 label.error {

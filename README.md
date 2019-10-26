@@ -1,4 +1,5 @@
-# spladmin基于thinkphp5.1+adminLTE框架开发 # 一键生成CURD 集成 权限管理 菜单管理 全局设置  
+# spladmin基于thinkphp5.1+adminLTE框架开发
+# 一键生成CURD 集成 权限管理 菜单管理 全局设置  
   
 ## DEMO  
 [在线演示](http://spladmin.o8o8o8.com/admin)<br>
@@ -16,7 +17,7 @@
   
 ### 二.curd快速生成命令(仿的fastadmin，控件都是自己写的)  
  - 生成单表curd
-`打开cmd使用php命令 		php think curd -t spl_XXX (-t 表示表名 spl_ 为表前缀)`
+ `打开cmd使用php命令 	php think curd -t spl_XXX (-t 表示表名 spl_ 为表前缀)`
  - 生成关联表curd
  `php think curd -t spl_XXX -j spl_relation_table_name -k foreign_key (-j表示关联表 -k表示外键)`
 

@@ -16,9 +16,10 @@
   
 ### 二.curd快速生成命令(仿的fastadmin，控件都是自己写的)  
  - 生成单表curd
-> 打开cmd使用php命令 		php think curd -t spl_XXX (-t 表示表名 spl_ 是我的表前缀)
+`打开cmd使用php命令 		php think curd -t spl_XXX (-t 表示表名 spl_ 为表前缀)`
  - 生成关联表curd
-> 		php think curd -t spl_XXX -j spl_relation_table_name -k foreign_key (-j表示关联的表 -k表示外键)
+ `php think curd -t spl_XXX -j spl_relation_table_name -k foreign_key (-j表示关联表 -k表示外键)`
+
 **注：表名必须完整**  
   
 ### 三.控件类型之数据库字段设计  
@@ -33,5 +34,5 @@
 |文件上传|_file|varchar(255)|
 
 目前只支持以上控件  
-
-### 四.开发教程（未完待续）  
+  
+### 四.开发教程（未完待续）

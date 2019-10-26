@@ -23,7 +23,7 @@ php think curd -t spl_XXX (-t 表示表名 spl_ 是我的表前缀)
 php think curd -t spl_XXX -j spl_relation_table_name -k foreign_key (-j表示关联的表 -k表示外键)<br>
 注：表名必须完整
 
-### 三.控件类型数据库之字段设计
+### 三.控件类型之数据库字段设计
 ##### 普通文本控件
 无任何后缀 类型 varchar 
 

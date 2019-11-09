@@ -2,18 +2,27 @@
     background: #F8F8F8;
 }
 .layui-layer-title{
-
+    background: #337ab7 !important;
+    color: #ffffff !important;
 }
 .layui-layer-iframe{
     overflow-y: hidden !important;
 }
 .layui-layer-btn0{
-    background: #3b8dbc !important;
-    border-color: #3b8dbc !important;
+    background: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
+.layui-layer-btn a {
+    height: 34px !important;
+    line-height: 34px !important;
+    margin: 2px 5px !important;
+    padding: 0 36px !important;
 }
 .layui-layer-setwin .layui-layer-min cite{
+    background-color: #ffffff !important;
 }
 .layui-layer-setwin:hover .layui-layer-min cite:hover{
+    background-color: #ffffff !important;
 }
 input.error { border: 1px solid red; }
 label.error {
